@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <table id="myTable">
+        <thead>
+        <tr>
+            <th class="sort">Firstname</th>
+            <th class="sort">Lastname</th>
+            <th class="sort">Country</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Alfreds</td>
+            <td>Futterkiste</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Anders</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Talbert</td>
+            <td>Chaudron</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>Bran</td>
+            <td>Raincin</td>
+            <td>China</td>
+        </tr>
+        <tr>
+            <td>Eloise</td>
+            <td>Jimpson</td>
+            <td>Greece</td>
+        </tr>
+        <tr>
+            <td>Marianna</td>
+            <td>Champkins</td>
+            <td>Paraguay</td>
+        </tr>
+        <tr>
+            <td>Ralph</td>
+            <td>Mounsie</td>
+            <td>Uruguay</td>
+        </tr>
+        <tr>
+            <td>Tobey</td>
+            <td>Doge</td>
+            <td>Guatemala</td>
+        </tr>
+        <tr>
+            <td>Kristel</td>
+            <td>I'anson</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Daune</td>
+            <td>Housecraft</td>
+            <td>Indonesia</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <th colspan="3">
+                <div id="pagination-navigation">
+                </div>
+            </th>
+        </tr>
+        </tfoot>
+    </table>
+</section>
+<br>
+<section>
+    <table id="second-table">
+        <thead>
+        <tr>
+            <th class="second-sort">Firstname</th>
+            <th class="second-sort">Lastname</th>
+            <th class="second-sort">Country</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Alfreds</td>
+            <td>Futterkiste</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Anders</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Talbert</td>
+            <td>Chaudron</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>Bran</td>
+            <td>Raincin</td>
+            <td>China</td>
+        </tr>
+        <tr>
+            <td>Eloise</td>
+            <td>Jimpson</td>
+            <td>Greece</td>
+        </tr>
+        <tr>
+            <td>Marianna</td>
+            <td>Champkins</td>
+            <td>Paraguay</td>
+        </tr>
+        <tr>
+            <td>Ralph</td>
+            <td>Mounsie</td>
+            <td>Uruguay</td>
+        </tr>
+        <tr>
+            <td>Tobey</td>
+            <td>Doge</td>
+            <td>Guatemala</td>
+        </tr>
+        <tr>
+            <td>Kristel</td>
+            <td>I'anson</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Daune</td>
+            <td>Housecraft</td>
+            <td>Indonesia</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <th colspan="3">
+                <div id="navigation">
+                </div>
+            </th>
+        </tr>
+        </tfoot>
+    </table>
+</section>
+<script type="text/javascript" src="tableSort.js"></script>
+<script type="text/javascript" src="tablePager.js"></script>
+<script type="text/javascript" src="tableSortPager.js"></script>
+<script>
+
+    sortTable(
+        "myTable",
+        "sort",
+        "ASC"
+    );
+
+    sortTable(
+        "second-table",
+        "second-sort",
+        "ASC"
+    );
+
+    paginateTable(
+    "myTable",
+    "pagination-navigation",
+    [2, 5, 10, 15, 20, 25, 30]
+);
+
+    paginateTable(
+        "second-table",
+        "navigation",
+        [5, 10, 15, 20, 25, 30]
+    );
+</script>
+</body>
+</html>
