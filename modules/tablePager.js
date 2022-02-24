@@ -1,5 +1,5 @@
 
-function paginateTable(tableId, navId, rowCountPerPageArray) {
+export function paginateTable(tableId, navId, rowCountPerPageArray) {
 
     // element that contains the selectList and page buttons
     let navigation = document.getElementById(navId);
