@@ -1,5 +1,5 @@
-import {paginateTable} from './modules/tablePager';
-import {sortTable} from "./modules/tableSort";
+import {paginateTable} from './modules/tablePager.js';
+import {sortTable} from "./modules/tableSort.js";
 
 
 sortTable(
