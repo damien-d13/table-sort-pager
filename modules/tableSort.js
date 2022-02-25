@@ -1,5 +1,5 @@
 
-export function sortTable(tableId, sortClass, defaultOrder = "DESC") {
+export function sortTable(tableId, sortClass, defaultOrder = "DESC", callback = null) {
 
     let table = document.getElementById(tableId);
     let tableBody = table.getElementsByTagName("tbody")[0];
@@ -52,6 +52,7 @@ export function sortTable(tableId, sortClass, defaultOrder = "DESC") {
             })
             tableBody.appendChild(tr);
         });
+        callback();
     }
 
     sortButtons.forEach((button) => {

@@ -54,7 +54,7 @@ export function paginateTable(tableId, navId, rowCountPerPageArray) {
     let pageButtons = [];
     let nextButton = null;
 
-    function hideRows() {
+    let hideRows = () => {
         var firstRow = (currentPage - 1) * parseInt(getRowCountPerPage());
         var lastRow = firstRow + parseInt(getRowCountPerPage());
         // console.log(getRowCountPerPage())
@@ -116,4 +116,7 @@ export function paginateTable(tableId, navId, rowCountPerPageArray) {
     })
 
     hideRows();
+
+    return hideRows;
 }
+
