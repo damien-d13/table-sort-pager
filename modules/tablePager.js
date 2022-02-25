@@ -1,5 +1,5 @@
 
-function paginateTable(tableId, navId, rowCountPerPageArray) {
+export function paginateTable(tableId, navId, rowCountPerPageArray) {
 
     // element that contains the selectList and page buttons
     let navigation = document.getElementById(navId);
@@ -59,7 +59,7 @@ function paginateTable(tableId, navId, rowCountPerPageArray) {
         var lastRow = firstRow + parseInt(getRowCountPerPage());
         // console.log(getRowCountPerPage())
         // console.log(firstRow + " : " + lastRow);
-        for (i = 0; i < rows.length; i++) {
+        for (let i = 0; i < rows.length; i++) {
             // console.log(i + " : " + (firstRow <= i && i < lastRow));
             rows[i].hidden = !(firstRow <= i && i < lastRow);
             // rows[i].style.color = (firstRow <= i && i < lastRow) ? "blue": "red";

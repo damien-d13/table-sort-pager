@@ -1,5 +1,5 @@
 
-function sortTable(tableId, sortClass, defaultOrder = "DESC") {
+export function sortTable(tableId, sortClass, defaultOrder = "DESC") {
 
     let table = document.getElementById(tableId);
     let tableBody = table.getElementsByTagName("tbody")[0];
