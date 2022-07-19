@@ -17,9 +17,10 @@ Downlaod the project into your files project and link it in your HTML metadata.
 example :
 
 
-`
+```html
 <script type="text/javascript" src="table-sort-pager.js"></script>
-`
+
+```
 
 
 ## Usage examples:
