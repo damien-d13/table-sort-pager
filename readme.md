@@ -17,18 +17,18 @@ Downlaod the project into your files project and link it in your HTML metadata.
 example :
 
 
-``
+`
 <script type="text/javascript" src="table-sort-pager.js"></script>
-``
+`
 
 
 ## Usage examples:
 
 in main files change or add wrap like this with your id and classe name:
 
-``
+`
 wrap("myTable", "sort", "pagination-navigation", [2, 5, 10, 15, 20, 25, 30], "ASC");
-``
+`
 
 "myTable" is the id of your table.
 
