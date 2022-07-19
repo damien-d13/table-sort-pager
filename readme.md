@@ -44,5 +44,6 @@ wrap("myTable", "sort", "pagination-navigation", [2, 5, 10, 15, 20, 25, 30], "AS
 
 ## Maintainers:
 
-@damien-d13
-@teoBattani
+* __[Damien Devoti](https://github.com/damien-d13)__
+*  __[Theo Battani ](https://github.com/theoBattani)__
+
