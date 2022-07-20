@@ -4,12 +4,12 @@ This project is a JavaScript application that allows you to add pagination and a
 
 ## Table of Contents
 
-- [Latest updates](#Latest)
+- [Updates](#Updates)
 - [Requirement](#Requirement)
 - [Features](#Features)
 - [Installation](#installation)
 - [Configuration](#Configuration)
-- [Usage examples](#Usage)
+- [Usage](#Usage)
 - [Maintainers](#Maintainers)
 
 ## Latest updates
@@ -33,7 +33,7 @@ import('./modules/tableSortPager');
 import('./main.js');
 ```
 
-## Usage examples
+## Usage
 
 in main files change or add wrap like this with your id and classe name:
 
