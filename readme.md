@@ -38,7 +38,7 @@ wrap("myTable", "sort", "pagination-navigation", [2, 5, 10, 15, 20, 25, 30], "AS
 
 [2, 5, 10, 15, 20, 25, 30] is the element yu can see per page.
 
-"ASC" is the direction of the sort filter ("ASC" for ascendant and "DESC" for descendant).
+"ASC" is the direction of the sort filter ("ASC" for ascendant and "DESC" for descendant) Optional DESC by default.
 
 
 ## Maintainers:
