@@ -12,15 +12,14 @@ Compatibility of your project with javascript language
 
 ## Installation and configuration:
 
-Downlaod the project into your files project and link it in your HTML metadata.
+Downlaod the project into your files project and link main.js and all file uin modules.
 
-example :
-
-
-```html
-<script type="text/javascript" src="table-sort-pager.js"></script>
-
-```
+`
+import('./modules/tableSort');
+import('./modules/tablePager');
+import('./modules/tableSortPager');
+import('./js/sortPager');
+`
 
 
 ## Usage examples:
