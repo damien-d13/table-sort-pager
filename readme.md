@@ -14,12 +14,12 @@ Compatibility of your project with javascript language
 
 Downlaod the project into your files project and link main.js and all file uin modules.
 
-`
+```javascript
 import('./modules/tableSort');
 import('./modules/tablePager');
 import('./modules/tableSortPager');
 import('./js/sortPager');
-`
+```
 
 
 ## Usage examples:
