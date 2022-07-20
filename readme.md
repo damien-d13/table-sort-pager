@@ -5,14 +5,14 @@ This project is a JavaScript application that allows you to add pagination and a
 ## Table of Contents
 
 - [Updates](#Updates)
-- [Requirement](#Requirement)
+- [Requierement](#Requierement)
 - [Features](#Features)
 - [Installation](#installation)
 - [Configuration](#Configuration)
 - [Usage](#Usage)
 - [Maintainers](#Maintainers)
 
-## Latest updates
+## Updates
 
 ## Requierement
 
@@ -24,7 +24,7 @@ Compatibility of your project with javascript language
 
 Downlaod the project into your files project and link main.js and all file uin modules.
 
-## configuration
+## Configuration
 
 ```javascript
 import('./modules/tableSort');
