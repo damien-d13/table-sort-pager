@@ -4,12 +4,12 @@ This project is a JavaScript application that allows you to add pagination and a
 
 ## Table of Contents
 
-- [Latest updates](#Latest updates)
+- [Latest updates](#Latest)
 - [Requirement](#Requirement)
 - [Features](#Features)
 - [Installation](#installation)
 - [Configuration](#Configuration)
-- [Usage examples](#Usage exeamples)
+- [Usage examples](#Usage)
 - [Maintainers](#Maintainers)
 
 ## Latest updates
