@@ -18,7 +18,7 @@ Downlaod the project into your files project and link main.js and all file uin m
 import('./modules/tableSort');
 import('./modules/tablePager');
 import('./modules/tableSortPager');
-import('./js/sortPager');
+import('./main.js');
 ```
 
 
